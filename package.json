@@ -1,7 +1,7 @@
 {
-  "name": "graph-marker",
-  "version": "0.0.0",
-  "license": "MIT",
+  "name": "graph-marker-demo",
+  "version": "1.0.0",
+  "license": "Apache2",
   "angular-cli": {},
   "scripts": {
     "start": "ng serve",
@@ -20,6 +20,8 @@
     "@angular/platform-browser": "2.0.0",
     "@angular/platform-browser-dynamic": "2.0.0",
     "@angular/router": "3.0.0",
+    "@types/easeljs": "^0.8.33",
+    "@types/createjs": "^0.0.29",
     "core-js": "^2.4.1",
     "rxjs": "5.0.0-beta.12",
     "ts-helpers": "^1.1.1",

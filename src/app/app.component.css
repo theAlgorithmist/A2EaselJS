@@ -1,0 +1,27 @@
+h1
+{
+  font-size: 16px;
+  font-weight: bold;
+}
+
+.text-pad-top
+{
+  margin-top: 50px;
+}
+
+.div-pad-top
+{
+  margin-top: 10px;
+}
+
+.bordered-canvas
+{
+  border: 2px solid;
+  color: #ebebeb;
+}
+
+.small
+{
+  font-size: 14px;
+  font-weight: bold;
+}

@@ -1,1 +1,23 @@
-/* You can add global styles to this file, and also import other style files */
+body 
+{ 
+  font-size: 15px;
+  font-family: Arial, Helvetica, Geneva, sans-serif; 
+  padding: 20px;
+}    
+
+a 
+{
+  cursor:pointer;
+}
+
+.rounded
+{
+  width: 100%;
+  max-width:440px;
+  padding: 16px;
+  border: 2px solid #dddddd;
+  -moz-border-radius: 6px;
+  -webkit-border-radius: 6px;
+  -o-border-radius: 6px;
+  border-radius:6px;
+}    

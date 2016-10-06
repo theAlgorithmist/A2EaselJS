@@ -1,3 +1,31 @@
-<h1>
-  {{title}}
-</h1>
+<!-- Will use flexbox in next example, although at the expense of less browser/device support -->
+<div class="container-fluid rounded">
+  <div class="row">
+    <div class="pull-xs-left">
+      <img class="img-fluid logo-img" src="assets/eyes.png">
+    </div>
+    <div class="pull-xs-right">
+      <span class="pull-xs-left">The Algorithmist</span>
+      <span class="pull-xs-right text-pad-top">TSMT GraphMarker Demo</span>
+    </div>
+  </div>
+
+  <div class="row div-pad-top">
+    <h1>Typescript Math Toolkit Interactive GraphMarker</h1>
+    <p>Drag marker to query graph coordinates<br/>(left, top) = {{_left}}, {{_top}}, (right, bottom) = {{_right}}, {{_bottom}}</p>
+  </div>
+
+  <div class="row">
+    <div align='center'>
+      <canvas width="400" height="400" class="bordered-canvas"></canvas>
+    </div>
+    <p>Marker coordinates in user or graph space</p>
+    <p class='small'>marker x: {{_markerX}} <br/>marker y: {{_markerY}}</p>
+  </div>
+
+  <div class="row">
+    <div class="pull-xs-right">
+      <button type="button" class="btn btn-small btn-info" (click)="__onZoom()">Zoom</button>&nbsp; {{_dir}}
+    </div>
+  </div>
+</div>
